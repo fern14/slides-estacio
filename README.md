@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# Slides do Projeto: Integração de Direito Cibernético nas Práticas de Desenvolvimento de Software
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Visão Geral
 
-## Available Scripts
+Este repositório contém os slides de apresentação do projeto "Integração de Direito Cibernético nas Práticas de Desenvolvimento de Software" para a AtkinsRealis. Os slides foram desenvolvidos usando React para proporcionar uma experiência de apresentação interativa e moderna.
 
-In the project directory, you can run:
+## Conteúdo dos Slides
 
-### `npm start`
+Os slides cobrem os seguintes tópicos:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Introdução ao Projeto
+2. Situação-Problema na AtkinsRealis
+3. Objetivos do Projeto
+4. Metodologia Proposta
+5. Plano de Implementação
+6. Resultados Esperados
+7. Avaliação e Métricas
+8. Cronograma do Projeto
+9. Próximos Passos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `npm test`
+- React
+- CSS (com estilos inline para facilitar a portabilidade)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Usar
 
-### `npm run build`
+### Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (versão 14.0.0 ou superior)
+- npm (normalmente vem com Node.js)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Instalação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone este repositório:
+   ```
+   git clone [https://github.com/fern14/slides-estacio.git]
+   ```
 
-### `npm run eject`
+2. Navegue até o diretório do projeto:
+   ```
+   cd [slides-estacio]
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Instale as dependências:
+   ```
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Executando a Apresentação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Para visualizar os slides localmente:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Inicie o servidor de desenvolvimento:
+   ```
+   npm start
+   ```
 
-## Learn More
+2. Abra seu navegador e acesse `http://localhost:3000`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Navegação nos Slides
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Use as setas do teclado (← e →) para navegar entre os slides.
+- Alternativamente, clique nos botões de navegação na parte inferior da apresentação.
 
-### Code Splitting
+## Personalização
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Para personalizar os slides:
 
-### Analyzing the Bundle Size
+1. Abra o arquivo `src/App.js`
+2. Modifique o conteúdo dentro do componente `App`
+3. Para adicionar novos slides, crie novos elementos `<Slide>` dentro do array `slides`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Exportação
 
-### Making a Progressive Web App
+Para exportar os slides para um formato estático (por exemplo, PDF):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Use a funcionalidade de impressão do seu navegador (Ctrl+P ou Cmd+P)
+2. Selecione "Salvar como PDF" nas opções de impressão
 
-### Advanced Configuration
+## Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contribuições para melhorar a apresentação são bem-vindas. Por favor, siga estas etapas:
 
-### Deployment
+1. Faça um fork do repositório
+2. Crie uma nova branch (`git checkout -b feature/NovaFeature`)
+3. Faça commit das suas mudanças (`git commit -am 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/NovaFeature`)
+5. Crie um novo Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contato
 
-### `npm run build` fails to minify
+[David Delfino Fernandes] - [david.fernandes@atkinsrealis.com]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Link do Projeto: [https://github.com/fern14/slides-estacio]
+
+## Agradecimentos
+
+- Equipe de Desenvolvimento da AtkinsRealis
+- Departamento Jurídico da AtkinsRealis
+- Equipe de Segurança da Informação
